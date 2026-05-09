@@ -37,3 +37,14 @@ print("before conversion",type(float_val))
 float_str_val = str(float_val)
 print("after conversion",type(float_str_val))
 
+
+#Create a list, tuple, set, and dictionary with sample values.
+sample_list = [1,2,1,3,5,4]
+sample_tuple = (1,2,1,3,5,4)
+sample_set = {1,2,3,4,5}
+sample_dic = {"id1":1,"id2":2,"id3":3}
+print(sample_list)
+print(sample_tuple)
+print(sample_set)
+print(sample_dic)
+
