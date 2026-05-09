@@ -80,3 +80,7 @@ print("age:",age)
 num1 = int(input("Enter first number"))
 num2 = int(input("Enter second number"))
 print("sum is:",num1 + num2)
+
+#Take user name and print greeting.
+user_name = input("Enter your name: ")
+print("Hi, welcome",user_name)
