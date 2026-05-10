@@ -84,3 +84,9 @@ print("sum is:",num1 + num2)
 #Take user name and print greeting.
 user_name = input("Enter your name: ")
 print("Hi, welcome",user_name)
+
+#Calculate area of rectangle.
+length = float(input("Enter length of rectangle: "))
+breadth = float(input("Enter breadth of rectangle: "))
+area = length * breadth
+print(f"Area of rectangle {area}")
