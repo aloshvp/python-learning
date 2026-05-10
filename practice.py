@@ -136,4 +136,23 @@ if unit >= 0:
     print(f"Electricity bill: {bill}")    
 
 
-    
+#ATM withdrawal validation.
+balance = float(input("Enter account balance: "))
+withdraw = float(input("Enter withdrawal amount: "))
+
+if withdraw <= 0:
+    print("Invalid withdrawal amount")
+
+elif withdraw > balance:
+    print("Insufficient balance")
+
+else:
+    remaining_balance = balance - withdraw
+
+    print("Withdrawal successful")
+    print(f"Remaining balance: {remaining_balance}")
+
+
+#Print middle elements using slicing.
+items = ['a','b',1,'c','3']
+print(items[1:-1])        
