@@ -116,4 +116,24 @@ if len(letter) == 1 and letter.isalpha():
 else:
     print("Invalid input")
 
+
+#Create electricity bill condition.
+unit = float(input("Enter units: "))
+
+if unit < 0:
+    print("Invalid unit")
+
+elif unit > 1000:
+    bill = unit * 5
+
+elif unit > 500:
+    bill = unit * 4
+
+else:
+    bill = unit * 3
+
+if unit >= 0:
+    print(f"Electricity bill: {bill}")    
+
+
     
