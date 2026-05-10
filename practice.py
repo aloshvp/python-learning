@@ -90,3 +90,30 @@ length = float(input("Enter length of rectangle: "))
 breadth = float(input("Enter breadth of rectangle: "))
 area = length * breadth
 print(f"Area of rectangle {area}")
+
+#Calculate remainder using modulus.
+dividend = int(input("Enter a dividend"))
+divisor = int(input("Enter a divisor")) 
+remainder = dividend % divisor
+print(f"remainder :{remainder}")
+
+#Find square and cube of number.
+num = int(input("Enter a number: "))
+square_of_num = num**2
+cube_of_num = num**3
+print(f"Square of number: {square_of_num}")
+print(f"Cube of number: {cube_of_num}")
+
+#Check whether character is vowel or consonant.
+letter = input("Enter an alphabet: ").lower()
+if len(letter) == 1 and letter.isalpha():
+
+    if letter in "aeiou":
+        print("Alphabet is a vowel")
+    else:
+        print("Alphabet is a consonant")
+
+else:
+    print("Invalid input")
+
+    
