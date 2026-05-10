@@ -153,4 +153,13 @@ else:
     print(f"Remaining balance: {remaining_balance}")
 
 
-  
+#Safe division using exception handling
+try:
+    num = int(input("Enter number: "))
+    print(10 / num)
+
+except ZeroDivisionError:
+    print("Division by zero")
+
+else:
+    print("Program executed successfully")
