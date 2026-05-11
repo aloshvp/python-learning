@@ -31,3 +31,12 @@ else:
     print(f"{text} is not palindrome")
 
     
+#Count word frequency.
+sentence = "Python programming.Python is ease and powerful,python is everywhere and everything"
+words=sentence.replace("."," ").replace(","," ").lower().split(" ")
+print(words)
+for word in set(words):
+    print(f"{word} {words.count(word)}")\
+
+    
+        

@@ -1,3 +1,4 @@
-file_object =open("file1.txt","w")
-file_object.write("Hello, World!")
-#file_object.close()
+file_object =open("file.txt","a+")
+file_object.read()
+#file_object.write("This is a new line.\n")
+
