@@ -32,3 +32,17 @@ student = {
 print(student)
 student["mark"]=88
 print(student)
+
+#Add new key-value pair.
+student = {
+    "name":"Alosh",
+    "age":25,
+    "Job":"Data Analyst",
+    "isStudent":True,
+    "mark":85
+}
+print(student)
+student["Qualification"]="Diploma"
+print(student)
+
+
