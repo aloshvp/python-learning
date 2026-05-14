@@ -69,3 +69,12 @@ print(random.randint(1,6))
 print(random.randint(1,100))
 print(random.randint(200,250))
 
+#validation
+x=7.0
+print(x.is_integer())
+x=7.5
+print(x.is_integer())
+x = 70
+print(isinstance(70,int))
+x = 70.4
+print(isinstance(70,float))
