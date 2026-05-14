@@ -38,12 +38,25 @@ print(3 % 2)
 print(3**2)
 
 
-
-
 #shorthand assignment
 x = 2
 #x = x + 3
 x += 3
 print(x)
 
+
+#Measure distance
+print(abs(2-10))
+
+
+import math
+#rounding numbers
+price = 35.54879865
+print(round(price))
+print(round(price,2))
+print(round(price,1))
+print(math.ceil(price))
+print(math.floor(price))
+print(math.trunc(price))
+print(int(price))
 
