@@ -26,3 +26,13 @@ print(float(x))
 x = 3 #real
 y = 4 #imaginary
 print(complex(x,y))
+
+
+#math opertion
+print(3+2)
+print(3-2)
+print(3*2)
+print(3/2)
+print(3//2) #floor division
+print(3 % 2)
+print(3**2)
