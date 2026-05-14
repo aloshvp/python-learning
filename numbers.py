@@ -60,3 +60,12 @@ print(math.floor(price))
 print(math.trunc(price))
 print(int(price))
 
+
+import random
+print(random.random())
+print(random.random())
+print(random.random())
+print(random.randint(1,6))
+print(random.randint(1,100))
+print(random.randint(200,250))
+
