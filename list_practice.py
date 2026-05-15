@@ -77,3 +77,4 @@ for i in items:
     if i < smallest:
         smallest = i
 print(f"Smallest element: {smallest}")  
+
