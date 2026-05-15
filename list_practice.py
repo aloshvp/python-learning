@@ -78,3 +78,45 @@ for i in items:
         smallest = i
 print(f"Smallest element: {smallest}")  
 
+
+#Find the sum of all elements
+items =[1,5,4]
+print(f"Sum of all elements: {sum(items)}")
+
+total = 0
+for i in items:
+    total += i
+print(f"Sum of all elements: {total}")   
+
+
+#Find the average of list elements
+items =[1,5,4,2]
+print(f"Average of elements: {sum(items)/len(items)}")
+
+total = 0
+for i in items:
+    total += i
+print(f"Average of elements: {total/len(items)}")
+
+
+
+#Reverse a list
+items =[1,5,4,2]
+items.reverse()#reverse original list
+print(f"Reverse: {items}")
+
+items =[1,5,4,2]
+print(f"Reverse: {items[::-1]}")
+
+reverse_list = []
+for i in range(len(items)-1, -1, -1):
+    reverse_list.append(items[i])
+print(f"Reverse: {reverse_list}")
+
+
+#Sort a list in ascending order
+items =[1,5,4,2]
+print(f"Ascending order: {sorted(items)}")
+
+items.sort() 
+print(f"Ascending order: {items}") #sort original list
