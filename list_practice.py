@@ -58,3 +58,22 @@ item_upper=[
 print(item_upper)
 
 
+#Find the largest element in a list
+items =[1,5,6,8,2,3,10,4]
+print(f"Larget element: {max(items)}")
+
+largest = items[0]
+for i in items:
+    if i > largest:
+        largest = i
+print(f"Largest element: {largest}")       
+
+#Find the smallest element in a list
+items =[1,5,6,8,2,3,10,4]
+print(f"Smallest element: {min(items)}")
+
+smallest = items[0]
+for i in items:
+    if i < smallest:
+        smallest = i
+print(f"Smallest element: {smallest}")  
