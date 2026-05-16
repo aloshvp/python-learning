@@ -160,3 +160,8 @@ print(f"Even count: {even_count}")
 print(f"Odd count: {odd_count}") 
 
 
+#Merge two lists
+items1 = [1,5,4,2,1,5]
+items2 = ['a','a','b',2,10,]
+items3 = items1 +items2
+print(items3)
