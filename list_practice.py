@@ -121,3 +121,26 @@ print(f"Ascending order: {sorted(items)}")
 items.sort() 
 print(f"Ascending order: {items}") #sort original list
 
+
+
+#Sort a list in descending order
+items =[1,5,4,2]
+print(f"Descending order: {sorted(items,reverse=True)}")
+
+items.sort(reverse=True) 
+print(f"Descending order: {items}") #sort original list
+
+
+#Remove duplicates from a list
+items =[1,5,4,2,1,5,'a','b','a']
+print(f"Unique items: {list(set(items))}")
+
+items =[1,5,4,2,1,5,'a','b','a']
+items_new=[]
+for i in items:
+    if i not in items_new:        
+            items_new.append(i)
+print(f"Unique items: {items_new}") 
+
+
+
