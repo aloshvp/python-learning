@@ -144,3 +144,19 @@ print(f"Unique items: {items_new}")
 
 
 
+# Count even and odd numbers
+items = [1,5,4,2,1,5]
+even_count = 0
+odd_count = 0
+for i in items:
+
+    if i % 2 == 0:
+        even_count += 1
+
+    else:
+        odd_count += 1
+
+print(f"Even count: {even_count}")
+print(f"Odd count: {odd_count}") 
+
+
