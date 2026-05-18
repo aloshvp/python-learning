@@ -165,3 +165,13 @@ items1 = [1,5,4,2,1,5]
 items2 = ['a','a','b',2,10,]
 items3 = items1 +items2
 print(items3)
+
+
+#Convert string into list
+name = "alosh"
+print(list(name))
+
+name_list = []
+for i in name:    
+    name_list.append(i)
+print(name_list)    
