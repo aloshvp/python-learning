@@ -175,3 +175,13 @@ name_list = []
 for i in name:    
     name_list.append(i)
 print(name_list)    
+
+
+#Extract even numbers using list comprehension
+numbers = [1,2,3,5,10,12,15,14,16,7,9]
+even_numbers = [
+    i
+    for i in numbers
+    if i % 2 == 0
+]
+print(even_numbers)
