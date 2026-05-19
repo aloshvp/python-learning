@@ -185,3 +185,13 @@ even_numbers = [
     if i % 2 == 0
 ]
 print(even_numbers)
+
+
+#Remove empty elements from list
+items = [1,0,'a','']
+items_new=[
+    i
+    for i in items
+    if i != ""
+]
+print(items_new)
