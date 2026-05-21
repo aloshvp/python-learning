@@ -195,3 +195,25 @@ items_new=[
     if i != ""
 ]
 print(items_new)
+
+
+#Split list into even and odd lists
+items = [1,2,3,4,5,6,7,8,9,10,11,12]
+items_odd=[]
+items_even=[]
+for i in items:
+    if i % 2 == 0:
+        items_even.append(i)
+    else:
+        items_odd.append(i)
+print(f"Odd list: {items_odd}") 
+print(f"Even list: {items_even}")
+
+
+#Split list into even and odd lists
+items = [1,2,3,4,5,6,7,8,9,10,11,12]
+items_even = [i for i in items if i % 2 == 0]
+items_odd = [i for i in items if i % 2 != 0]
+print(items_even)
+print(items_odd)
+
