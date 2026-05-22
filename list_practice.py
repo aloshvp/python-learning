@@ -237,3 +237,10 @@ item3 = [
 
 print(item3)
 
+
+#Rotate a list left/right
+item = [10,4,2,1]
+item_left = item[1:] + [item[0]]
+item_right = [item[-1]] + item[:-1]
+print(item_left)
+print(item_right)
