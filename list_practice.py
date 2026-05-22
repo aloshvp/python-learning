@@ -217,3 +217,22 @@ items_odd = [i for i in items if i % 2 != 0]
 print(items_even)
 print(items_odd)
 
+#Find common elements between two lists
+item1 = [1,2,3]
+item2 = [5,4,3,1]
+item3 = []
+for item in item1:
+    if item in item2:
+        item3.append(item)    
+print(item3)
+
+#Find common elements between two lists
+item1 = [1,2,3]
+item2 = [5,4,3,1]
+item3 = [
+    item
+    for item in item1
+    if item in item2
+]
+
+print(item3)
