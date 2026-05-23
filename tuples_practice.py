@@ -27,3 +27,11 @@ items_unique = tuple(set(items))
 print(items_unique)
 
 
+
+#Create tuple with student data
+student = ('alosh','diploma','software engg')
+print(student)
+print(type(student))
+
+
+
