@@ -40,3 +40,15 @@ print(student[0])
 print(student[1])
 print(student[2])
 print(student[-1])
+
+
+#Find index of value
+student = ('alosh','diploma','software engg')
+print(student.index("alosh"))
+print(student.index("software engg"))
+
+#Convert tuple to list
+student = ('alosh','diploma','software engg')
+print(student)
+print(list(student))
+
