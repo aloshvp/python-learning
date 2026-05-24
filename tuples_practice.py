@@ -34,4 +34,9 @@ print(student)
 print(type(student))
 
 
-
+#Access tuple elements
+student = ('alosh','diploma','software engg')
+print(student[0])
+print(student[1])
+print(student[2])
+print(student[-1])
