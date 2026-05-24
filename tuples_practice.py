@@ -52,3 +52,15 @@ student = ('alosh','diploma','software engg')
 print(student)
 print(list(student))
 
+#Remove duplicates from tuple
+student = ('alosh','diploma','software engg','diploma')
+student_new = []
+for item in student:
+    if item not in student_new:
+        student_new.append(item)
+print(tuple(student_new))
+
+student = ('alosh','diploma','software engg','diploma')
+student_new = tuple(dict.fromkeys(student))
+print(student_new)
+
