@@ -13,3 +13,14 @@ result = add_numbers(10, 10)
 print(result)
 
 
+#Function to check even or odd
+def even_or_odd(a):
+    if a % 2 == 0 :
+        return f"{a} is even"
+    else:
+        return f"{a} is odd"
+
+even = even_or_odd(2)
+print(even)
+odd = even_or_odd(1)
+print(odd)
