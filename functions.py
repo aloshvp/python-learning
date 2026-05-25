@@ -6,3 +6,10 @@ def numbers_mean(numbers):
 mean_val = numbers_mean([10, 20, 30])
 print(mean_val)
 
+#Function to add two numbers
+def add_numbers(a, b):
+    return a + b
+result = add_numbers(10, 10)
+print(result)
+
+
