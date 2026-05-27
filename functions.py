@@ -24,3 +24,10 @@ even = even_or_odd(2)
 print(even)
 odd = even_or_odd(1)
 print(odd)
+
+#Function to clean a string
+def clean(text):
+    return text.strip().lower().replace(",", "")
+
+cleaned_text = clean(" HaI")   
+print(cleaned_text)
